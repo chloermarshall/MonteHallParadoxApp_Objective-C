@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE16D08E1E4A831700E41C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D08D1E4A831700E41C46 /* main.m */; };
+		DE16D0911E4A831700E41C46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0901E4A831700E41C46 /* AppDelegate.m */; };
+		DE16D0941E4A831700E41C46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0931E4A831700E41C46 /* ViewController.m */; };
+		DE16D0971E4A831700E41C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE16D0951E4A831700E41C46 /* Main.storyboard */; };
+		DE16D0991E4A831700E41C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE16D0981E4A831700E41C46 /* Assets.xcassets */; };
+		DE16D09C1E4A831800E41C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE16D09A1E4A831800E41C46 /* LaunchScreen.storyboard */; };
+		DE16D0A71E4A831800E41C46 /* Monte_Hall_ParadoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0A61E4A831800E41C46 /* Monte_Hall_ParadoxTests.m */; };
+		DE16D0B21E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0B11E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE16D0A31E4A831800E41C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE16D0811E4A831700E41C46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE16D0881E4A831700E41C46;
+			remoteInfo = "Monte Hall Paradox";
+		};
+		DE16D0AE1E4A831800E41C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE16D0811E4A831700E41C46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE16D0881E4A831700E41C46;
+			remoteInfo = "Monte Hall Paradox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE16D0891E4A831700E41C46 /* Monte Hall Paradox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte Hall Paradox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D08D1E4A831700E41C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE16D08F1E4A831700E41C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE16D0901E4A831700E41C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE16D0921E4A831700E41C46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE16D0931E4A831700E41C46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE16D0961E4A831700E41C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE16D0981E4A831700E41C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE16D09B1E4A831800E41C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE16D09D1E4A831800E41C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE16D0A21E4A831800E41C46 /* Monte Hall ParadoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monte Hall ParadoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D0A61E4A831800E41C46 /* Monte_Hall_ParadoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monte_Hall_ParadoxTests.m; sourceTree = "<group>"; };
+		DE16D0A81E4A831800E41C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE16D0AD1E4A831800E41C46 /* Monte Hall ParadoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monte Hall ParadoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D0B11E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monte_Hall_ParadoxUITests.m; sourceTree = "<group>"; };
+		DE16D0B31E4A831800E41C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE16D0861E4A831700E41C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D09F1E4A831800E41C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D0AA1E4A831800E41C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE16D0801E4A831700E41C46 = {
+			isa = PBXGroup;
+			children = (
+				DE16D08B1E4A831700E41C46 /* Monte Hall Paradox */,
+				DE16D0A51E4A831800E41C46 /* Monte Hall ParadoxTests */,
+				DE16D0B01E4A831800E41C46 /* Monte Hall ParadoxUITests */,
+				DE16D08A1E4A831700E41C46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE16D08A1E4A831700E41C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D0891E4A831700E41C46 /* Monte Hall Paradox.app */,
+				DE16D0A21E4A831800E41C46 /* Monte Hall ParadoxTests.xctest */,
+				DE16D0AD1E4A831800E41C46 /* Monte Hall ParadoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE16D08B1E4A831700E41C46 /* Monte Hall Paradox */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D08F1E4A831700E41C46 /* AppDelegate.h */,
+				DE16D0901E4A831700E41C46 /* AppDelegate.m */,
+				DE16D0921E4A831700E41C46 /* ViewController.h */,
+				DE16D0931E4A831700E41C46 /* ViewController.m */,
+				DE16D0951E4A831700E41C46 /* Main.storyboard */,
+				DE16D0981E4A831700E41C46 /* Assets.xcassets */,
+				DE16D09A1E4A831800E41C46 /* LaunchScreen.storyboard */,
+				DE16D09D1E4A831800E41C46 /* Info.plist */,
+				DE16D08C1E4A831700E41C46 /* Supporting Files */,
+			);
+			path = "Monte Hall Paradox";
+			sourceTree = "<group>";
+		};
+		DE16D08C1E4A831700E41C46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D08D1E4A831700E41C46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE16D0A51E4A831800E41C46 /* Monte Hall ParadoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D0A61E4A831800E41C46 /* Monte_Hall_ParadoxTests.m */,
+				DE16D0A81E4A831800E41C46 /* Info.plist */,
+			);
+			path = "Monte Hall ParadoxTests";
+			sourceTree = "<group>";
+		};
+		DE16D0B01E4A831800E41C46 /* Monte Hall ParadoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D0B11E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m */,
+				DE16D0B31E4A831800E41C46 /* Info.plist */,
+			);
+			path = "Monte Hall ParadoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE16D0881E4A831700E41C46 /* Monte Hall Paradox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D0B61E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall Paradox" */;
+			buildPhases = (
+				DE16D0851E4A831700E41C46 /* Sources */,
+				DE16D0861E4A831700E41C46 /* Frameworks */,
+				DE16D0871E4A831700E41C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte Hall Paradox";
+			productName = "Monte Hall Paradox";
+			productReference = DE16D0891E4A831700E41C46 /* Monte Hall Paradox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE16D0A11E4A831800E41C46 /* Monte Hall ParadoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D0B91E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxTests" */;
+			buildPhases = (
+				DE16D09E1E4A831800E41C46 /* Sources */,
+				DE16D09F1E4A831800E41C46 /* Frameworks */,
+				DE16D0A01E4A831800E41C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE16D0A41E4A831800E41C46 /* PBXTargetDependency */,
+			);
+			name = "Monte Hall ParadoxTests";
+			productName = "Monte Hall ParadoxTests";
+			productReference = DE16D0A21E4A831800E41C46 /* Monte Hall ParadoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE16D0AC1E4A831800E41C46 /* Monte Hall ParadoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D0BC1E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxUITests" */;
+			buildPhases = (
+				DE16D0A91E4A831800E41C46 /* Sources */,
+				DE16D0AA1E4A831800E41C46 /* Frameworks */,
+				DE16D0AB1E4A831800E41C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE16D0AF1E4A831800E41C46 /* PBXTargetDependency */,
+			);
+			name = "Monte Hall ParadoxUITests";
+			productName = "Monte Hall ParadoxUITests";
+			productReference = DE16D0AD1E4A831800E41C46 /* Monte Hall ParadoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE16D0811E4A831700E41C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chloe Marshall";
+				TargetAttributes = {
+					DE16D0881E4A831700E41C46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DE16D0A11E4A831800E41C46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE16D0881E4A831700E41C46;
+					};
+					DE16D0AC1E4A831800E41C46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE16D0881E4A831700E41C46;
+					};
+				};
+			};
+			buildConfigurationList = DE16D0841E4A831700E41C46 /* Build configuration list for PBXProject "Monte Hall Paradox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE16D0801E4A831700E41C46;
+			productRefGroup = DE16D08A1E4A831700E41C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE16D0881E4A831700E41C46 /* Monte Hall Paradox */,
+				DE16D0A11E4A831800E41C46 /* Monte Hall ParadoxTests */,
+				DE16D0AC1E4A831800E41C46 /* Monte Hall ParadoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE16D0871E4A831700E41C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D09C1E4A831800E41C46 /* LaunchScreen.storyboard in Resources */,
+				DE16D0991E4A831700E41C46 /* Assets.xcassets in Resources */,
+				DE16D0971E4A831700E41C46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D0A01E4A831800E41C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D0AB1E4A831800E41C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE16D0851E4A831700E41C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D0941E4A831700E41C46 /* ViewController.m in Sources */,
+				DE16D0911E4A831700E41C46 /* AppDelegate.m in Sources */,
+				DE16D08E1E4A831700E41C46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D09E1E4A831800E41C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D0A71E4A831800E41C46 /* Monte_Hall_ParadoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D0A91E4A831800E41C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D0B21E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE16D0A41E4A831800E41C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE16D0881E4A831700E41C46 /* Monte Hall Paradox */;
+			targetProxy = DE16D0A31E4A831800E41C46 /* PBXContainerItemProxy */;
+		};
+		DE16D0AF1E4A831800E41C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE16D0881E4A831700E41C46 /* Monte Hall Paradox */;
+			targetProxy = DE16D0AE1E4A831800E41C46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE16D0951E4A831700E41C46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE16D0961E4A831700E41C46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE16D09A1E4A831800E41C46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE16D09B1E4A831800E41C46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE16D0B41E4A831800E41C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE16D0B51E4A831800E41C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE16D0B71E4A831800E41C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Monte Hall Paradox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-Paradox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE16D0B81E4A831800E41C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Monte Hall Paradox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-Paradox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE16D0BA1E4A831800E41C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Monte Hall ParadoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-ParadoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monte Hall Paradox.app/Monte Hall Paradox";
+			};
+			name = Debug;
+		};
+		DE16D0BB1E4A831800E41C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Monte Hall ParadoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-ParadoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monte Hall Paradox.app/Monte Hall Paradox";
+			};
+			name = Release;
+		};
+		DE16D0BD1E4A831800E41C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Monte Hall ParadoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-ParadoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Monte Hall Paradox";
+			};
+			name = Debug;
+		};
+		DE16D0BE1E4A831800E41C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Monte Hall ParadoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.Monte-Hall-ParadoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Monte Hall Paradox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE16D0841E4A831700E41C46 /* Build configuration list for PBXProject "Monte Hall Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D0B41E4A831800E41C46 /* Debug */,
+				DE16D0B51E4A831800E41C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE16D0B61E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D0B71E4A831800E41C46 /* Debug */,
+				DE16D0B81E4A831800E41C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE16D0B91E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D0BA1E4A831800E41C46 /* Debug */,
+				DE16D0BB1E4A831800E41C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE16D0BC1E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D0BD1E4A831800E41C46 /* Debug */,
+				DE16D0BE1E4A831800E41C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE16D0811E4A831700E41C46 /* Project object */;
+}
