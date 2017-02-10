@@ -15,6 +15,13 @@
 		DE16D09C1E4A831800E41C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE16D09A1E4A831800E41C46 /* LaunchScreen.storyboard */; };
 		DE16D0A71E4A831800E41C46 /* Monte_Hall_ParadoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0A61E4A831800E41C46 /* Monte_Hall_ParadoxTests.m */; };
 		DE16D0B21E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16D0B11E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m */; };
+		DE16D0C71E4A839100E41C46 /* LoserHorns.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE16D0C11E4A839100E41C46 /* LoserHorns.wav */; };
+		DE16D0CA1E4A839100E41C46 /* WINNER.WAV in Resources */ = {isa = PBXBuildFile; fileRef = DE16D0C41E4A839100E41C46 /* WINNER.WAV */; };
+		DE8016541E4E1BCF001472A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8016531E4E1BCF001472A0 /* AVFoundation.framework */; };
+		DEF2A2121E4D14EA00A5218C /* redup.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF2A2111E4D14EA00A5218C /* redup.png */; };
+		DEF2A2161E4D15FB00A5218C /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF2A2131E4D15FB00A5218C /* door.png */; };
+		DEF2A2171E4D15FB00A5218C /* looser.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF2A2141E4D15FB00A5218C /* looser.png */; };
+		DEF2A2181E4D15FB00A5218C /* winner.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF2A2151E4D15FB00A5218C /* winner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		DE16D0AD1E4A831800E41C46 /* Monte Hall ParadoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monte Hall ParadoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE16D0B11E4A831800E41C46 /* Monte_Hall_ParadoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monte_Hall_ParadoxUITests.m; sourceTree = "<group>"; };
 		DE16D0B31E4A831800E41C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE16D0C11E4A839100E41C46 /* LoserHorns.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LoserHorns.wav; sourceTree = "<group>"; };
+		DE16D0C41E4A839100E41C46 /* WINNER.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WINNER.WAV; sourceTree = "<group>"; };
+		DE8016531E4E1BCF001472A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DEF2A2111E4D14EA00A5218C /* redup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redup.png; sourceTree = "<group>"; };
+		DEF2A2131E4D15FB00A5218C /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		DEF2A2141E4D15FB00A5218C /* looser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = looser.png; sourceTree = "<group>"; };
+		DEF2A2151E4D15FB00A5218C /* winner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8016541E4E1BCF001472A0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				DE16D0A51E4A831800E41C46 /* Monte Hall ParadoxTests */,
 				DE16D0B01E4A831800E41C46 /* Monte Hall ParadoxUITests */,
 				DE16D08A1E4A831700E41C46 /* Products */,
+				DE8016521E4E1BCF001472A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +133,12 @@
 		DE16D08C1E4A831700E41C46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEF2A2131E4D15FB00A5218C /* door.png */,
+				DEF2A2141E4D15FB00A5218C /* looser.png */,
+				DEF2A2151E4D15FB00A5218C /* winner.png */,
+				DEF2A2111E4D14EA00A5218C /* redup.png */,
+				DE16D0C11E4A839100E41C46 /* LoserHorns.wav */,
+				DE16D0C41E4A839100E41C46 /* WINNER.WAV */,
 				DE16D08D1E4A831700E41C46 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +160,14 @@
 				DE16D0B31E4A831800E41C46 /* Info.plist */,
 			);
 			path = "Monte Hall ParadoxUITests";
+			sourceTree = "<group>";
+		};
+		DE8016521E4E1BCF001472A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8016531E4E1BCF001472A0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE16D09C1E4A831800E41C46 /* LaunchScreen.storyboard in Resources */,
+				DE16D0C71E4A839100E41C46 /* LoserHorns.wav in Resources */,
+				DEF2A2121E4D14EA00A5218C /* redup.png in Resources */,
+				DEF2A2161E4D15FB00A5218C /* door.png in Resources */,
 				DE16D0991E4A831700E41C46 /* Assets.xcassets in Resources */,
+				DEF2A2181E4D15FB00A5218C /* winner.png in Resources */,
 				DE16D0971E4A831700E41C46 /* Main.storyboard in Resources */,
+				DE16D0CA1E4A839100E41C46 /* WINNER.WAV in Resources */,
+				DEF2A2171E4D15FB00A5218C /* looser.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +541,7 @@
 				DE16D0B81E4A831800E41C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE16D0B91E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				DE16D0BB1E4A831800E41C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE16D0BC1E4A831800E41C46 /* Build configuration list for PBXNativeTarget "Monte Hall ParadoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				DE16D0BE1E4A831800E41C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
